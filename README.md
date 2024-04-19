@@ -29,6 +29,7 @@ After understanding the data, we need to prepare it for modeling. This involves:
 ![](images/PA11_year_vs_Price.png)
 ![](images/PA11_corr.png)
 ![](images/PA11_Robust_Scaler.png)
+- After EDA
 ![](images/PA11_after_EDA.png)
 ## Modeling
 Now, we'll build regression models using the prepared dataset:
@@ -53,5 +54,7 @@ After building and evaluating the models, we need to reflect on whether they mee
 - Decide if any adjustments are needed in earlier phases (data understanding, preparation) based on the findings.
 - Summarize the findings and prepare to communicate them to the client.
 - When compared the results of Linear Vs XGBoost Regressors,XGB has performed better and provided the importanti features to consider while buying the used cars.
+## Deployment
+Finalize the XGBoost model and convert it to pickle file for prediction and inference.
 
 
